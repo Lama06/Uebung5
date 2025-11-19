@@ -10,9 +10,9 @@ public class H3_main {
         };
         int input = 6279;
 
-
+        int input2 = input;
         for (int i = 0; i < einheiten[0].length; i++)
-            input -= einheiten[0][i] * (einheiten[1][i] = input / einheiten[0][i]);
+            input2 -= einheiten[0][i] * (einheiten[1][i] = input2 / einheiten[0][i]);
 
 
 
